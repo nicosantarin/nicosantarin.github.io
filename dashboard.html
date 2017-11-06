@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="css/dashboardstyle.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+
+<body>
+
+<div class="navbar">
+  
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">
+    	<span class="glyphicon glyphicon-menu-hamburger"></span>
+      
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="#">Courses</a>
+      <a href="#">Account Settings</a>
+    </div>
+  </div>
+  <a href="#home">Dashboard</a>
+</div>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+
+
+
+
+
+
+
+<div style="padding-left:16px">
+  <h2>Title</h2>
+  <p>content..</p>
+</div>
+
+</body>
+
+
+
+<html>
+
+
+
+<!-- <div class="topnav">	
+<a class="active" href="#h"><span class="glyphicon glyphicon-menu-hamburger"></span></a> 
+  <a href="dashboard.html">Dashboard</a>
+</div> -->
+
+<!-- <div class="dropdown">
+  	<button class="dropbtn"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
+  		<div class="dropdown-content">
+    	<a href="#">Link 1</a>
+    	<a href="#">Link 2</a>
+    	<a href="#">Link 3</a>
+  		</div>
+	</div> -->
