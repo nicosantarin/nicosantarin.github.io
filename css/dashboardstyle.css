@@ -1,8 +1,8 @@
 
 
 body {
-  margin: 0;
-background-color: #e0d7c0;
+  margin: 1;
+  background-color: #e0d7c0;
 }
 
 ul.sidenav {
@@ -61,19 +61,20 @@ div.content {
 
 div.dbcontent-container {
   
-  margin-left : 20%;
-  margin-right: 20%;
-  padding: 20px;
+  margin-left : 15%;
+  margin-right: 15%;
+  padding: 15px;
   border: 5px solid black;
 }
 
 div.tile-item1 {
   background-color: #fff5db;
   border: 1px solid black;
-  padding: 25px;
-  margin-top: 20px;
-  width: 550px;
-  display: inline-table;
+  padding: 10px;
+  margin: 20px;
+  max-width: 500px;
+  max-height: 800px;
+  display: inline-block;
 }
 div.tile-item1 a {
   text-decoration: none;
