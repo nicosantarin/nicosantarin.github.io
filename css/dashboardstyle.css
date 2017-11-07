@@ -1,7 +1,11 @@
 
 
-body {
+/*body {
   margin: 1;
+  background-color: #e0d7c0;
+}*/
+
+body {
   background-color: #e0d7c0;
 }
 
@@ -24,7 +28,7 @@ ul.sidenav li a {
 }
  
 ul.sidenav li a.active {
-    background-color:  #b30018;
+    background-color:  #63130d;
     color: white;
 }
 
@@ -32,6 +36,13 @@ ul.sidenav li a:hover:not(.active) {
     background-color: #cf8300;
     color: white;
 }
+
+#brand {
+    background-color:  #ffa200;
+    color: black;
+
+}
+
 
 div.content {
     margin-left: 25%;
@@ -64,31 +75,37 @@ div.dbcontent-container {
   margin-left : 15%;
   margin-right: 15%;
   padding: 15px;
-  border: 5px solid black;
+  /*border: 5px solid black;*/
+
 }
 
-div.tile-item1 {
-  background-color: #fff5db;
-  border: 1px solid black;
+div.tile-item {
+  /*background-color: #fff5db;*/
+  border: 1px solid;
+  border-color:  #63130d;
   padding: 10px;
   margin: 20px;
   max-width: 500px;
   max-height: 800px;
   display: inline-block;
+  box-shadow: 0px 0px 10px #888888;
 }
-div.tile-item1 a {
+div.tile-item a, div.tile-item2 a {
   text-decoration: none;
   color: black;
+
 }
-/*div.tile-item2 {
-  background-color: #fff5db;
+
+div.tile-item2 {
+  
   border: 1px solid black;
-  padding: 25px;
-}*/
-/*div.tile-item1 a, div.tile-item2 a {
-  text-decoration: none;
-  color: black;
-}*/
+  padding: 10px;
+  margin: 20px;
+  max-width: 800px;
+  max-height: 800px;
+  box-shadow: 0px 0px 10px #888888;
+}
+
 
 
 
@@ -97,7 +114,17 @@ div.tile-title {
   text-decoration: none;
 }
 
+div.tile-title h2 {
+ color:  #63130d;
+}
 
 div.tile-body {
   text-decoration: none;
+}
+
+
+/*Course page*/
+#sublink:hover{
+  color: #63130d;
+  text-decoration: underline;
 }
