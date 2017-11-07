@@ -8,7 +8,7 @@ html { height: 100% }
   border: 1px solid #42464b;
   border-radius: 6px;
   height: 180px;
-  margin: 20px auto 0;
+  margin: 15% auto 0;
   width: 575px;
 }
 .login h1 {
@@ -96,7 +96,7 @@ input[type="submit"] {
   
   border: none;  
   background-color: #ffa200;
-  background-image: linear-gradient(top,#3db0a6,#3111);
+  background-image: linear-gradient(top,#3db0a6);
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
