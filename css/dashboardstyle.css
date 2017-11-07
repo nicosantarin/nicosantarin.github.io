@@ -38,11 +38,18 @@ ul.sidenav li a:hover:not(.active) {
     color: white;
 }
 
-#brand {
+ul.sidenav li a:lastchild {
+  position: absolute;
+  bottom: 0px;
+}
+
+/*#brand {
     background-color:  #ffa200;
     color: black;
+    position: fixed;
 
-}
+
+}*/
 
 
 div.content {
