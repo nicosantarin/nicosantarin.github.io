@@ -1,14 +1,11 @@
 /*red colour= #63130d  */
 /*orange colour= #ffa200 */
 
-/*body {
-  margin: 1;
-  background-color: #e0d7c0;
-}*/
-
 body {
+  margin: 0;
   background-color: #e0d7c0;
 }
+
 
 ul.sidenav {
     list-style-type: none;
@@ -24,7 +21,7 @@ ul.sidenav {
 ul.sidenav li a {
     display: block;
     color: white;
-    padding: 8px 16px;
+    padding: 10px 16px;
     text-decoration: none;
 }
  
@@ -38,10 +35,10 @@ ul.sidenav li a:hover:not(.active) {
     color: white;
 }
 
-ul.sidenav li a:lastchild {
+/*ul.sidenav li a:lastchild {
   position: absolute;
   bottom: 0px;
-}
+}*/
 
 /*#brand {
     background-color:  #ffa200;
@@ -71,7 +68,7 @@ div.content {
     div.content {margin-left: 0;}
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 200px) {
     ul.sidenav li a {
         text-align: center;
         float: none;
