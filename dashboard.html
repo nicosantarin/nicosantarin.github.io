@@ -14,49 +14,15 @@
 
 <body>
 
-<div class="navbar">
+<ul class="sidenav">
+  <li><a class="active" href="#home">Dashboard</a></li>
+  <li><a href="#news">Courses</a></li>
+  <li><a href="#contact">Account Settings</a></li>
+</ul>
+
+<div class="content">
+  <h1>courses</h1>
   
-  <div class="dropdown">
-    <button class="dropbtn" onclick="myFunction()">
-    	<span class="glyphicon glyphicon-menu-hamburger"></span>
-      
-    </button>
-    <div class="dropdown-content" id="myDropdown">
-      <a href="#">Courses</a>
-      <a href="#">Account Settings</a>
-    </div>
-  </div>
-  <a href="#home">Dashboard</a>
-</div>
-
-
-<script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(e) {
-  if (!e.target.matches('.dropbtn')) {
-    var myDropdown = document.getElementById("myDropdown");
-      if (myDropdown.classList.contains('show')) {
-        myDropdown.classList.remove('show');
-      }
-  }
-}
-</script>
-
-
-
-
-
-
-
-<div style="padding-left:16px">
-  <h2>Title</h2>
-  <p>content..</p>
 </div>
 
 </body>
@@ -67,16 +33,3 @@ window.onclick = function(e) {
 
 
 
-<!-- <div class="topnav">	
-<a class="active" href="#h"><span class="glyphicon glyphicon-menu-hamburger"></span></a> 
-  <a href="dashboard.html">Dashboard</a>
-</div> -->
-
-<!-- <div class="dropdown">
-  	<button class="dropbtn"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
-  		<div class="dropdown-content">
-    	<a href="#">Link 1</a>
-    	<a href="#">Link 2</a>
-    	<a href="#">Link 3</a>
-  		</div>
-	</div> -->
