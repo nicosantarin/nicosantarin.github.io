@@ -55,7 +55,7 @@ div.content {
     height: 1000px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
     ul.sidenav {
         width: 100%;
         height: auto;
@@ -63,7 +63,7 @@ div.content {
     }
     ul.sidenav li a {
         float: left;
-        padding: 15px;
+        padding: 20px;
     }
     div.content {margin-left: 0;}
 }
