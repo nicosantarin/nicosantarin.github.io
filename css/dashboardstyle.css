@@ -133,3 +133,8 @@ div.tile-body {
   color: #63130d;
   text-decoration: underline;
 }
+
+.ce-panel {
+
+  float:right;
+}
