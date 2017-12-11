@@ -137,5 +137,5 @@ function Chat(/*chatID*/ name) {
     //toggleSize(); // start minimized?
 }
 
-let nuChat = new Chat('INFO 4115');
+let nuChat = new Chat('INFO 4190');
 // let theChat = new Chat('The Goons');
